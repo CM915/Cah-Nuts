@@ -1,0 +1,60 @@
+/* Change the background color */
+body{
+    background-color: bisque;
+}
+/* Set the header to be at the center of the page and change the font of the header */
+.Header{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Create some space between the end of the pages (Left and Right) */
+.content{
+    margin-right:120px;
+    margin-left:120px;
+    padding: 10px;
+}
+/* Style the navigation background and text color */
+.navigation{
+    overflow: hidden;
+    background-color: black;
+    text-align: center;
+}
+/* Styke the navigation to be inside the nav bar  */
+.navigation li{
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    color: white;
+}
+/* Add a style to change the color of the background of the nav when a mouse is hovering over it  */
+.navigation li:hover{
+    background-color: wheat;
+    color: black;
+}
+/* Set the columns side by side  */
+.col{
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.col1{
+    width: 50%;
+    float: left;
+    padding: 10px;
+    padding-right: 20px;
+}
+.col2{
+    overflow: hidden;
+    padding: 10px;
+    padding-right: 20px;
+}
+/* Enable the footer to be at the bottom */
+.footer{
+    position: fixed;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
